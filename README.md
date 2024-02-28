@@ -1,2 +1,2 @@
-# goit-markup-hw-01
-my firs html project
+# goit-markup-hw-02
+my 2 html+css project
