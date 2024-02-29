@@ -69,7 +69,7 @@ a {
 }
 
 .hero-order-button {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-family: "Roboto", sans-serif;
   background: #4d5ae5;
   cursor: pointer;
   font-weight: 500;
