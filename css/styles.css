@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: #434455;
 }
@@ -72,9 +72,6 @@ a {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   cursor: pointer;
-}
-
-.text-order-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -85,10 +82,6 @@ a {
 .hero-order-button:hover,
 .hero-order-button:focus {
   background: #404bbf;
-}
-
-.advantages-section-title {
-  display: none;
 }
 
 .advantages-title {
