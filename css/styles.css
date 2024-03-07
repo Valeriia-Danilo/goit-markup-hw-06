@@ -109,14 +109,15 @@ p {
   color: #404bbf;
 }
 
-.hero-content {
+/* .hero-content {
   padding: 68px 316px;
   margin: 0 auto;
   align-items: center;
-}
+} */
 
 .hero-section {
   background: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -124,10 +125,10 @@ p {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
   max-width: 496px;
-  margin-bottom: 48px;
+  text-align: center;
+  margin: 0 auto 48px;
 }
 
 .hero-order-button {
@@ -140,12 +141,12 @@ p {
   letter-spacing: 0.04em;
   color: #fff;
   text-align: center;
-  display: flex;
+  min-width: 169px;
+  height: 56px;
+  display: block;
   border-radius: 4px;
   padding: 16px 32px;
   border: none;
-  white-space: nowrap;
-  align-items: center;
   margin: 0 auto;
 }
 
@@ -177,7 +178,6 @@ p {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 8px;
   width: calc((100% - 3 * 24px) / 4);
 }
 
@@ -187,7 +187,7 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  /* margin-bottom: 8px; */
+  margin-bottom: 8px;
 }
 
 .advantages-text {
@@ -225,7 +225,6 @@ p {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 32px;
   width: calc((100% - 3 * 24px) / 4);
 }
 
@@ -234,7 +233,7 @@ p {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 8px;
+  padding: 32px 0;
 }
 
 .team-title {
@@ -243,6 +242,7 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-text {
@@ -281,7 +281,6 @@ p {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  gap: 8px;
 }
 
 .product-title {
@@ -290,6 +289,7 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .product-text {
@@ -300,14 +300,12 @@ p {
 
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 
-.footer-text-container {
-  display: flex;
-  flex-direction: column;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  margin: auto;
+.logo-footer {
+  display: block;
+  margin-bottom: 16px;
 }
 
 .logo-studio-footer {
