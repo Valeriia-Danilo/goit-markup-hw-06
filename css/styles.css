@@ -539,6 +539,8 @@ p {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-open {
@@ -728,11 +730,10 @@ p {
   color: #8e8f99;
   display: flex;
   align-items: center;
-  margin-top: 8px;
 }
 
 .check-link {
-  line-height: 1.33333;
+  line-height: 1.33;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
@@ -743,7 +744,6 @@ p {
   border: 1px solid rgba(46, 47, 66, 0.4);
   width: 16px;
   height: 16px;
-  margin-right: 8px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -751,6 +751,7 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-right: 8px;
 }
 
 .modal-check:checked + .check-text .check-accept {
