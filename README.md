@@ -1,2 +1,2 @@
-# goit-markup-hw-05
-my 5 html+css project
+# goit-markup-hw-06
+my 6 html+css project
